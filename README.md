@@ -22,6 +22,19 @@ LoLMatchup is a full-stack application that connects League of Legends players b
 
 ## 📸 Screenshots
 
+![lolmatchup4](https://github.com/user-attachments/assets/957c26c0-40fd-4252-8d8c-8f2c3db071bf)
+
+![lolmatchup1](https://github.com/user-attachments/assets/8674e3b9-eac8-4155-ae32-a13eb0636471)
+
+![lolmatchup2](https://github.com/user-attachments/assets/747cee1f-7235-46bf-9df2-476fb672007d)
+
+![lolmatchup3](https://github.com/user-attachments/assets/939c469a-17e1-4d16-85d4-653bb537a12d)
+
+
+
+
+
+
 
 ## ⚙️ Installation
 
