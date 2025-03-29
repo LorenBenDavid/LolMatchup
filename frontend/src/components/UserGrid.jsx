@@ -39,7 +39,11 @@ const UserGrid = ({ users, setUsers, selectedRole, selectedServer }) => {
 		return null; 
 	}
 
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> f8b9baa9e47c2f17d034432dcd5f08f0ff51c1c4
 	const filteredUsers = users.filter((user) => {
 		const roleMatch = selectedRole ? user.role === selectedRole : true;
 		const serverMatch = selectedServer ? user.server === selectedServer : true;
@@ -60,7 +64,11 @@ const UserGrid = ({ users, setUsers, selectedRole, selectedServer }) => {
 					<UserCard key={user.id} user={user} setUsers={setUsers} />
 				))}
 			</Grid>
+<<<<<<< HEAD
 		
+=======
+			
+>>>>>>> f8b9baa9e47c2f17d034432dcd5f08f0ff51c1c4
 			{!filteredUsers.length && !isLoading && (
 				<Flex justifyContent={"center"}>
 					<Text fontSize={"xl"}>No matching users found</Text>

@@ -47,7 +47,11 @@ const UserCard = ({ user, setUsers }) => {
   const toast = useToast();
   const { isOpen, onOpen, onClose } = useDisclosure();
 
+<<<<<<< HEAD
   
+=======
+ 
+>>>>>>> f8b9baa9e47c2f17d034432dcd5f08f0ff51c1c4
   const [avatar, setAvatar] = useState("");
 
   const randomizeAvatar = () => {
