@@ -47,7 +47,7 @@ const UserCard = ({ user, setUsers }) => {
   const toast = useToast();
   const { isOpen, onOpen, onClose } = useDisclosure();
 
-  // כאן מוגדר ה-state של האווטאר
+ 
   const [avatar, setAvatar] = useState("");
 
   const randomizeAvatar = () => {
@@ -57,7 +57,7 @@ const UserCard = ({ user, setUsers }) => {
   };
 
   useEffect(() => {
-    randomizeAvatar(); // אווטאר רנדומלי ראשוני
+    randomizeAvatar(); 
   }, []);
 
   const handleDeleteUser = async () => {
