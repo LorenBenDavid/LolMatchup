@@ -4,7 +4,7 @@ from models import Friend
 
 
 
-# Get all friends
+
 @app.route("/api/friends", methods=["GET"])
 def get_friends():
     friends = Friend.query.all() 
@@ -12,7 +12,7 @@ def get_friends():
     return jsonify(result)
 
 
-# Create a friend
+
 @app.route("/api/friends", methods=["POST"])
 def create_friend():
     try:
@@ -43,7 +43,7 @@ def create_friend():
         db.session.add(new_friend)
         db.session.commit()
 
-        # 🚩🚩🚩 כאן בדיוק הבעיה: החזרת אובייקט שלם עם ה־ID שלו
+
         return jsonify(new_friend.to_json()), 201
 
     except Exception as e:
@@ -51,7 +51,7 @@ def create_friend():
         return jsonify({"error": str(e)}), 500
 
 
-# Delete a friend
+
 @app.route("/api/friends/<int:id>", methods=["DELETE"])
 def delete_friend(id):
     try:
@@ -67,7 +67,7 @@ def delete_friend(id):
         return jsonify({"error": str(e)}), 500
 
 
-# Update a friend profile
+
 @app.route("/api/friends/<int:id>", methods=["PATCH"])
 def update_friend(id):
     try:

@@ -120,7 +120,7 @@ function EditModal({ setUsers, user }) {
 									
 								</Flex>
 								<Flex gap={6}>
-								{/* Server Selection */}
+								
 								<FormControl>
 									<FormLabel>Server</FormLabel>
 									<Menu>
@@ -136,7 +136,7 @@ function EditModal({ setUsers, user }) {
 
 								</FormControl>
 
-									{/* Role Selection */}
+									
 									<FormControl>
 										<FormLabel>Role</FormLabel>
 										<Menu>

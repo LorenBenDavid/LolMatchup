@@ -33,13 +33,13 @@ const UserGrid = ({ users, setUsers, selectedRole, selectedServer }) => {
 		getUsers();
 	}, [setUsers]);
 
-	// אם users הוא undefined, נחזיר מערך ריק
+	
 	if (!users || !Array.isArray(users)) {
 		console.error("❌ Invalid users data:", users);
-		return null; // אפשר להחזיר הודעה או גרפיקה אחרת אם צריך
+		return null; 
 	}
 
-	// סינון המשתמשים
+
 	const filteredUsers = users.filter((user) => {
 		const roleMatch = selectedRole ? user.role === selectedRole : true;
 		const serverMatch = selectedServer ? user.server === selectedServer : true;
@@ -60,7 +60,7 @@ const UserGrid = ({ users, setUsers, selectedRole, selectedServer }) => {
 					<UserCard key={user.id} user={user} setUsers={setUsers} />
 				))}
 			</Grid>
-			{/* אם אין משתמשים, תוכל להוסיף הודעה */}
+		
 			{!filteredUsers.length && !isLoading && (
 				<Flex justifyContent={"center"}>
 					<Text fontSize={"xl"}>No matching users found</Text>

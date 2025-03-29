@@ -110,7 +110,7 @@ const CreateUserFormModalHandy = ({ isOpen, onClose, setUsers }) => {
           <ModalCloseButton />
           <ModalBody pb={6}>
             <Flex direction="column" gap={4}>
-              {/* Nickname + Riot ID */}
+              
               <Flex gap={4}>
                 <FormControl>
                   <FormLabel>Nickname</FormLabel>
@@ -130,7 +130,7 @@ const CreateUserFormModalHandy = ({ isOpen, onClose, setUsers }) => {
                 </FormControl>
               </Flex>
 
-              {/* Server + Role */}
+              
               <Flex gap={4}>
                 <FormControl>
                   <FormLabel>Server</FormLabel>
@@ -162,7 +162,7 @@ const CreateUserFormModalHandy = ({ isOpen, onClose, setUsers }) => {
                 </FormControl>
               </Flex>
 
-              {/* Rank + Discord */}
+              
               <Flex gap={4}>
                 <FormControl>
                   <FormLabel>Rank</FormLabel>
@@ -182,7 +182,7 @@ const CreateUserFormModalHandy = ({ isOpen, onClose, setUsers }) => {
                 </FormControl>
               </Flex>
 
-              {/* Interest */}
+             
               <FormControl>
                 <FormLabel>Interest</FormLabel>
                 <Input
@@ -192,7 +192,7 @@ const CreateUserFormModalHandy = ({ isOpen, onClose, setUsers }) => {
                 />
               </FormControl>
 
-              {/* About */}
+              
               <FormControl>
                 <FormLabel>About</FormLabel>
                 <Textarea
@@ -202,7 +202,7 @@ const CreateUserFormModalHandy = ({ isOpen, onClose, setUsers }) => {
                 />
               </FormControl>
 
-              {/* Gender */}
+             
               <FormControl>
                 <FormLabel>Gender</FormLabel>
                 <RadioGroup

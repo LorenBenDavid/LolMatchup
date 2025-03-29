@@ -11,7 +11,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 
-# נתיב ברור ומוחלט לתיקיית ה־dist
+
 dist_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "frontend", "dist"))
 
 @app.route("/", defaults={"path": ""})
