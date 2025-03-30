@@ -1,24 +1,86 @@
-# LolMatchup
+
+# 🎮 LoLMatchup - Find Your Perfect Gaming Partner
+
+LoLMatchup is a full-stack application that connects League of Legends players based on their preferred roles, ranks, servers, and interests. With LoLMatchup, you can easily find teammates, create your custom summoner profile, and enhance your gaming experience!
+
+## 🌟 Features
+
+- ✅ **Profile Management:** Create, update, and manage user profiles effortlessly.
+- 🎯 **Advanced Filtering:** Find teammates based on role, rank, and server.
+- 🖼️ **Random Avatar Generator:** Adds a unique touch to every profile.
+- 🚀 **Real-time Updates:** Instantly see profile changes and interactions.
+
+## 💻 Tech Stack
+
+### Frontend
+- **React** – UI components and frontend logic
+- **Chakra UI** – Modern, responsive UI design
+
+### Backend
+- **Flask** – Backend API
+- **SQLAlchemy** – ORM for database interactions
+- **SQLite** – Lightweight database for efficient storage
+
+## 📸 Screenshots
+
+![lolmatchup4](https://github.com/user-attachments/assets/957c26c0-40fd-4252-8d8c-8f2c3db071bf)
+
+![lolmatchup1](https://github.com/user-attachments/assets/8674e3b9-eac8-4155-ae32-a13eb0636471)
+
+![lolmatchup2](https://github.com/user-attachments/assets/747cee1f-7235-46bf-9df2-476fb672007d)
+
+![lolmatchup3](https://github.com/user-attachments/assets/939c469a-17e1-4d16-85d4-653bb537a12d)
 
 
-MIT License
 
-Copyright (c) 2025 Loren Ben David
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights  
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell      
-copies of the Software, and to permit persons to whom the Software is          
-furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in     
-all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR     
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,       
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE    
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER         
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN      
-THE SOFTWARE.
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/LorenBenDavid/LolMatchup.git
+cd LolMatchup
+```
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend Setup
+
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate     # Windows
+
+pip install -r requirements.txt
+python app.py
+```
+
+## 🚀 Deployment
+
+The app is deployed on [Render](https://render.com). Every commit to the `main` branch triggers an automatic deployment.
+
+
+## 🛠️ Contributing
+
+Feel free to contribute by opening issues, submitting pull requests, or suggesting new features!
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+Happy gaming! 🎉
+
+
